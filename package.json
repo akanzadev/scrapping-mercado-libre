@@ -1,0 +1,21 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jeancarlo Mamani <jeancarlosmamanilingan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "puppeteer": "^14.0.0",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/random-useragent": "^0.3.1",
+    "ts-node": "^10.7.0"
+  }
+}
