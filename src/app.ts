@@ -32,7 +32,7 @@ const saveExcel = (data: any) => {
 (async () => {
   const header = getRandom();
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
   });
   const page = await browser.newPage();
 
